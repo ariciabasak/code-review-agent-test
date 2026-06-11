@@ -9,7 +9,7 @@ def get_user(username):
     return query
 
 # Bug 2: Hardcoded password
-SECRET_KEY = "password123"
+SECRET_KEY  = "password123"
 DB_PASSWORD = "admin123"
 
 # Bug 3: Shell injection
